@@ -125,7 +125,7 @@
                                 <td>{$row['direccion']}</td>
                                 <td>{$row['telefono']}</td>
                                 <td>
-                                    <a href='' class='btn btn-blue btn-sm'>Editar</a>
+                                    <a href='update.php?id={$row['id']}' class='btn btn-blue btn-sm'>Editar</a>
                                     <a href='delete.php?id={$row['id']}' class='btn btn-red btn-sm'>Eliminar</a>
                                 </td>
                             </tr>";
