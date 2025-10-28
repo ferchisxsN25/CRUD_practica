@@ -97,7 +97,7 @@
 
         <h2>CRUD: Datos de Personas</h2>
         
-        <a href="" class="btn btn-purple mb-3">Agregar Persona</a>
+        <a href="create.php" class="btn btn-purple mb-3">Agregar Persona</a>
 
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
@@ -133,4 +133,4 @@
         </table>
 
     </body>
-</html
+</html>
