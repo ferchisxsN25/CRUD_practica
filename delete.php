@@ -10,7 +10,7 @@
         $result = pg_query($con, $deleteQuery);
 
         if ($result) {
-            header("Location: index.php?mensaje=Registro eliminado correctamente");
+            header("Location: read.php?mensaje=Registro eliminado correctamente");
             exit();
         } else {
             echo "Error al eliminar el registro: " . pg_last_error($con);

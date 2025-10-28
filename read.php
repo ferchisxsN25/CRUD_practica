@@ -126,8 +126,9 @@
                                 <td>{$row['telefono']}</td>
                                 <td>
                                     <a href='update.php?id={$row['id']}' class='btn btn-blue btn-sm'>Editar</a>
-                                    <a href='delete.php?id={$row['id']}' class='btn btn-red btn-sm'>Eliminar</a>
-                                </td>
+                                    <a href='delete.php?id={$row['id']}' class='btn btn-red btn-sm'onclick='return confirm(\"¿Estás seguro de que quieres eliminar este registro?\");'>
+                                    Eliminar</a>
+                               </td>
                             </tr>";
                     }
                 ?>
