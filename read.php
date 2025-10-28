@@ -61,6 +61,7 @@
 
   .btn-blue:hover {
     background-color: #6695f0;
+    color: white !important;
     transform: scale(1.05);
   }
 
@@ -74,6 +75,7 @@
 
   .btn-red:hover {
     background-color: #e96565;
+    color: white !important;
     transform: scale(1.05);
   }
 
@@ -124,7 +126,7 @@
                                 <td>{$row['telefono']}</td>
                                 <td>
                                     <a href='' class='btn btn-blue btn-sm'>Editar</a>
-                                    <a href='' class='btn btn-red btn-sm'>Eliminar</a>
+                                    <a href='delete.php?id={$row['id']}' class='btn btn-red btn-sm'>Eliminar</a>
                                 </td>
                             </tr>";
                     }

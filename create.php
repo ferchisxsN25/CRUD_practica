@@ -75,6 +75,7 @@
 
     .btn-purple:hover {
       background-color: #9d6ff5;
+      color: white !important;
       transform: scale(1.05);
     }
 
@@ -89,6 +90,7 @@
 
     .btn-blue:hover {
       background-color: #6695f0;
+      color: white !important;
       transform: scale(1.05);
     }
 
